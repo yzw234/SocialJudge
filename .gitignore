@@ -1,0 +1,21 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+__pycache__/
+.DS_Store
